@@ -349,7 +349,7 @@ array(5) {
 ## 演習21（ex21.php）
 CSVファイルのデータの中で、行ごとの最高点だけを合計し表示しなさい。<br>CSVファイルは以下のリンクからダウンロードしてください。
 
-<a href="csv/ex21_scores.csv" download>CSVファイル</a>
+<a href="csv/ex21_scores.csv" download="csv/ex21_scores.csv">CSVファイル</a>
 
 **出力結果**
 
