@@ -8,6 +8,7 @@ C:￥itc￥php_exフォルダを作成し、各演習のPHPファイルを作成
 - explode関数
 - trim関数
 - intval関数
+- rand関数
 
 <br>
 
