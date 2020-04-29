@@ -388,12 +388,12 @@ while (true) {
     array_push($array, $stdin);
 }
 
-for ($i = 0; $i < count($array); $i++) {
-    for ($j = 1; $j < count($array); $j++) {
-        if ($array[$j - 1] > $array[$j]) {
-            $temp = $array[$j];
-            $array[$j] = $array[$j - 1];
-            $array[$j - 1] = $temp;
+for ($i = 1; $i <= count($array); $i++) {
+    for ($j = 0; $j < count($array) - $i; $j++) {
+        if ($array[$j] > $array[$j + 1]) {
+            $temp = $array[$j + 1];
+            $array[$j + 1] = $array[$j];
+            $array[$j] = $temp;
         }
     }
 }
